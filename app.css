@@ -4,3 +4,178 @@ body {
 	background-size: cover;
 	font-family: "Arial";
 }
+
+#container {
+	background-color: rgb(247, 247, 247);
+}
+
+#header-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 339px;
+	margin: 0 auto;
+}
+
+header,
+.name {
+	font-weight: bold;
+}
+
+.disclosure-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	margin-left: 6px;
+}
+
+#grid-container,
+.images {
+	padding: 0 5px;
+	margin: 0 auto;
+}
+
+.disclosure,
+.branding-container {
+	font-size: 11px;
+}
+
+.tile-container {
+	align-self: center;
+	max-width: 358px;
+	margin: 0 auto;
+}
+
+.images {
+	max-width: 339px;
+	object-fit: contain;
+}
+
+.name {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 5px;
+}
+
+.category {
+	padding-left: 4px;
+}
+
+.name,
+.category,
+.branding {
+	margin: 5px 0;
+	text-decoration: none;
+	color: inherit;
+}
+
+.branding-container {
+	display: flex;
+	color: #00000087;
+	margin-bottom: 30px;
+}
+
+.branding {
+	margin-left: 6px;
+}
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		height: 100vh;
+	}
+
+	#header-container {
+		max-width: 700px;
+		margin: 0 0 0 30px;
+	}
+
+	#grid-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		max-width: 750px;
+	}
+
+	.tile-container {
+		margin: 0 6px;
+	}
+
+	.tile-container,
+	.images {
+		max-width: 228px;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	#header-container {
+		max-width: 955px;
+	}
+
+	.tile-container,
+	.images {
+		max-width: 310px;
+	}
+
+	#grid-container {
+		max-width: 1008px;
+	}
+
+	.header,
+	.name {
+		font-size: 18px;
+	}
+
+	.category,
+	.branding,
+	.disclosure {
+		font-size: 14px;
+	}
+}
+@media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+	#container {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	#header-container {
+		max-width: 745px;
+		margin: 0 auto;
+	}
+
+	#grid-container {
+		max-width: 790px;
+		margin: 0 auto;
+	}
+
+	.tile-container {
+		margin: 0 14px;
+	}
+
+	.tile-container,
+	.images {
+		max-width: 230px;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
+	#container,
+	#grid-container {
+		max-width: 339px;
+	}
+
+	.tile-container,
+	.images,
+	#header-container {
+		max-width: 260px;
+	}
+
+	#header-container {
+		margin: 0 auto;
+	}
+}
