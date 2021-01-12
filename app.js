@@ -16,7 +16,7 @@
 				: ``
 			div.innerHTML = `
           <div class="tile-container">
-          <a href="${tile.webUrl}"> <img src="${tile.webUrl}"class="images"></a>
+          <a href="${tile.webUrl}"> <img src="${tile.fields.thumbnail}"class="images"></a>
           <a href="${tile.webUrl}" class="name">${tile.webTitle}</a>
           <div class="branding-container">
           <p class="category">${category}</p>
@@ -32,7 +32,7 @@
 
 	async function fetchTileData() {
 		const url =
-			"https://content.guardianapis.com/search?api-key=f814cd43-7752-4206-9877-b219bcfe0029"
+			"https://content.guardianapis.com/search?api-key=f814cd43-7752-4206-9877-b219bcfe0029&show-fields=thumbnail"
 		const response = await fetch(url)
 
 		return response.json()
