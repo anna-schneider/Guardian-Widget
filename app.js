@@ -32,7 +32,7 @@
 
 	async function fetchTileData() {
 		const url =
-			"https://content.guardianapis.com/search?api-key=f814cd43-7752-4206-9877-b219bcfe0029&show-fields=thumbnail"
+			"https://content.guardianapis.com/search?api-key=f814cd43-7752-4206-9877-b219bcfe0029&show-fields=thumbnail&page-size=9"
 		const response = await fetch(url)
 
 		return response.json()
