@@ -17,6 +17,28 @@ body {
 	margin: 0 auto;
 }
 
+#logo-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#logo-top-container {
+	background-color: blue;
+	margin-top: 25px;
+	height: 300px;
+	width: 138px;
+	clip-path: polygon(29% 0%, 58% 0%, 52% 43%, 36% 43%);
+}
+
+#logo-bottom-container {
+	background-color: blue;
+	height: 138px;
+	width: 138px;
+	clip-path: circle(10.4% at 50% 50%);
+	/* margin: -200px 40px 0 0; */
+}
+
 header,
 .name {
 	font-weight: bold;
