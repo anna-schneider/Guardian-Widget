@@ -20,23 +20,98 @@ body {
 #logo-container {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
 }
 
 #logo-top-container {
-	background-color: blue;
+	display: flex;
+	flex-direction: row;
 	margin-top: 25px;
 	height: 300px;
-	width: 138px;
-	clip-path: polygon(29% 0%, 58% 0%, 52% 43%, 36% 43%);
+	width: 540px;
 }
 
 #logo-bottom-container {
-	background-color: blue;
-	height: 138px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 104px;
+	width: 540px;
+}
+
+#logo-first-top,
+#logo-second-top,
+#logo-second-top,
+#logo-third-top,
+#logo-fifth-top,
+#logo-sixth-top {
+	height: 300px;
 	width: 138px;
-	clip-path: circle(10.4% at 50% 50%);
-	/* margin: -200px 40px 0 0; */
+	clip-path: polygon(13% 0%, 81% 0%, 69% 94%, 31% 94%);
+}
+
+#logo-first-bottom,
+#logo-second-bottom,
+#logo-second-bottom,
+#logo-third-bottom,
+#logo-fifth-bottom,
+#logo-sixth-bottom {
+	height: 104px;
+	width: 245px;
+	clip-path: circle(49.4% at 50% 50%);
+}
+
+#logo-first-bottom,
+#logo-first-top {
+	background-color: rgb(59, 99, 65);
+}
+
+#logo-second-bottom,
+#logo-second-top {
+	background-color: rgb(155, 194, 93);
+}
+
+#logo-third-bottom,
+#logo-third-top {
+	background-color: rgb(233, 185, 89);
+}
+
+#logo-forth-bottom,
+#logo-forth-top {
+	background-color: rgb(206, 112, 78);
+}
+
+#logo-fifth-bottom,
+#logo-fifth-top {
+	background-color: rgb(94, 164, 217);
+}
+
+#logo-sixth-bottom,
+#logo-sixth-top {
+	background-color: rgb(128, 66, 130);
+}
+
+#logo-seventh-bottom {
+	background-color: rgb(194, 60, 128);
+}
+
+#logo-second-top {
+	margin-top: 50px;
+	height: 244px;
+}
+
+#logo-third-top {
+	margin-top: 75px;
+	height: 216px;
+}
+
+#logo-fifth-top {
+	margin-top: 125px;
+	height: 162px;
+}
+
+#logo-sixth-top {
+	margin-top: 150px;
+	height: 141px;
 }
 
 header,
