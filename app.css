@@ -7,6 +7,7 @@ body {
 
 #container {
 	background-color: rgb(247, 247, 247);
+	box-shadow: 5px 10px 5px teal;
 }
 
 #header-container {
@@ -22,13 +23,18 @@ body {
 	flex-direction: column;
 }
 
+.header {
+	margin-top: 78px;
+	color: rgb(50, 68, 112);
+}
+
 #logo-top-container {
 	display: flex;
 	flex-direction: row;
 	position: relative;
 	margin-top: 25px;
 	height: 300px;
-	width: 677px;
+	width: 780px;
 	z-index: 1;
 }
 
@@ -145,15 +151,6 @@ body {
 	height: 107px;
 }
 
-/* .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 10;
-} */
-
 header,
 .name {
 	font-weight: bold;
@@ -167,10 +164,6 @@ header,
 .images {
 	padding: 0 5px;
 	margin: 0 auto;
-}
-
-.disclosure {
-	font-size: 11px;
 }
 
 .tile-container {
@@ -203,16 +196,10 @@ header,
 	text-decoration: none;
 	color: inherit;
 }
-/* 
-.branding-container {
-	display: flex;
-	color: #00000087;
-	margin-bottom: 30px;
-}
 
-.branding {
-	margin-left: 6px;
-} */
+span {
+	color: rgb(168, 190, 210);
+}
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
