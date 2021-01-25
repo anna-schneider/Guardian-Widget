@@ -25,17 +25,40 @@ body {
 #logo-top-container {
 	display: flex;
 	flex-direction: row;
+	position: relative;
 	margin-top: 25px;
 	height: 300px;
 	width: 677px;
+	z-index: 1;
 }
 
 #logo-bottom-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	height: 104px;
 	width: 790px;
+}
+
+.rotate {
+	display: flex;
+	flex-direction: row;
+	transform: rotate(-90deg);
+	z-index: 3;
+	height: 100px;
+	width: 100px;
+}
+
+#text-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100px;
+	width: 90vw;
+	margin: 148px 0 0 35px;
+	height: 300px;
+	width: 677px;
+	position: absolute;
+	color: white;
 }
 
 #logo-first-top,
@@ -122,15 +145,18 @@ body {
 	height: 107px;
 }
 
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+} */
+
 header,
 .name {
 	font-weight: bold;
-}
-
-.disclosure-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .icon {
@@ -143,8 +169,7 @@ header,
 	margin: 0 auto;
 }
 
-.disclosure,
-.branding-container {
+.disclosure {
 	font-size: 11px;
 }
 
@@ -173,13 +198,12 @@ header,
 }
 
 .name,
-.category,
-.branding {
+.category {
 	margin: 5px 0;
 	text-decoration: none;
 	color: inherit;
 }
-
+/* 
 .branding-container {
 	display: flex;
 	color: #00000087;
@@ -188,7 +212,7 @@ header,
 
 .branding {
 	margin-left: 6px;
-}
+} */
 
 @media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
 	body {
