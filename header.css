@@ -141,6 +141,73 @@ span {
 		max-width: 700px;
 		margin: 0 0 0 30px;
 	}
+
+	.header {
+		font-size: 18px;
+		margin: 155px 0 0 0;
+	}
+
+	.logo-bottom {
+		clip-path: circle(30.4% at 50% 50%);
+	}
+
+	#logo-container {
+		width: 700px;
+	}
+
+	#logo-bottom-container {
+		width: 600px;
+	}
+
+	#logo-top-container {
+		width: 620px;
+		height: 162px;
+	}
+
+	.rotate {
+		font-size: 19px;
+		height: 100px;
+		width: 100px;
+	}
+
+	#text-container {
+		height: 100px;
+		width: 90vw;
+		margin: 50px 0 0 36px;
+		height: 328px;
+		width: 519px;
+	}
+
+	.logo-top {
+		height: 180px;
+		width: 138px;
+		clip-path: polygon(2% 0%, 98% 0%, 73% 94%, 26% 94%);
+	}
+
+	#logo-second-top {
+		margin-top: 17px;
+		height: 165px;
+	}
+
+	#logo-third-top {
+		margin-top: 32px;
+		height: 145px;
+	}
+
+	#logo-forth-top {
+		margin-top: 54px;
+		height: 122px;
+	}
+
+	#logo-fifth-top {
+		margin-top: 76px;
+		height: 100px;
+	}
+
+	#logo-sixth-top {
+		margin-top: 88px;
+		height: 87px;
+	}
 }
 
 @media only screen and (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
