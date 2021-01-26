@@ -16,7 +16,7 @@
 				: ``
 			div.innerHTML = `
           <div class="tile-container">
-          <a href="${tile.webUrl}"> <img src="${tile.fields}"class="images"></a>
+          <a href="${tile.webUrl}"> <img src="${tile.fields.thumbnail}"class="images"></a>
           <a href="${tile.webUrl}" class="name">${tile.webTitle}</a>
           <div class="branding-container">
           <p class="category">${category}</p>

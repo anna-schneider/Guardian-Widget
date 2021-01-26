@@ -67,26 +67,13 @@ body {
 	color: white;
 }
 
-#logo-first-top,
-#logo-second-top,
-#logo-second-top,
-#logo-third-top,
-#logo-forth-top,
-#logo-fifth-top,
-#logo-sixth-top {
+.logo-top {
 	height: 300px;
 	width: 138px;
 	clip-path: polygon(2% 0%, 98% 0%, 73% 94%, 26% 94%);
 }
 
-#logo-first-bottom,
-#logo-second-bottom,
-#logo-second-bottom,
-#logo-third-bottom,
-#logo-forth-bottom,
-#logo-fifth-bottom,
-#logo-sixth-bottom,
-#logo-seventh-bottom {
+.logo-bottom {
 	height: 104px;
 	width: 245px;
 	clip-path: circle(44.4% at 50% 50%);
@@ -162,7 +149,7 @@ header,
 
 #grid-container,
 .images {
-	padding: 0 5px;
+	padding: 10px 5px 0 5px;
 	margin: 0 auto;
 }
 
@@ -187,14 +174,26 @@ header,
 }
 
 .category {
-	padding-left: 4px;
+	padding-left: 3px;
+	text-transform: capitalize;
 }
 
 .name,
-.category {
+.category,
+.branding {
 	margin: 5px 0;
 	text-decoration: none;
 	color: inherit;
+}
+
+.branding {
+	margin-left: 6px;
+}
+
+.branding-container {
+	display: flex;
+	color: #00000087;
+	margin-bottom: 30px;
 }
 
 span {
