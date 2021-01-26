@@ -2,19 +2,20 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	max-width: 339px;
+	max-width: 85vw;
 	margin: 0 auto;
 }
 
 #logo-container {
 	display: flex;
 	flex-direction: column;
+	width: 339px;
 }
 
 .header {
 	font-family: "Bitter", serif;
-	font-size: 18px;
-	margin-top: 255px;
+	font-size: 12px;
+	margin: 100px 5px 0 0;
 	height: 63px;
 	color: rgb(50, 68, 112);
 }
@@ -24,8 +25,8 @@
 	flex-direction: row;
 	position: relative;
 	margin-top: 25px;
-	height: 300px;
-	width: 780px;
+	height: 90px;
+	width: 339px;
 	z-index: 1;
 }
 
@@ -33,17 +34,18 @@
 	display: flex;
 	flex-direction: row;
 	height: 104px;
-	width: 790px;
+	width: 307px;
 }
 
 .rotate {
 	display: flex;
 	flex-direction: row;
 	font-family: "Bitter", serif;
+	font-size: 12px;
 	transform: rotate(-90deg);
 	z-index: 3;
-	height: 100px;
-	width: 100px;
+	height: 25px;
+	width: 20px;
 }
 
 #text-container {
@@ -52,15 +54,15 @@
 	justify-content: space-around;
 	height: 100px;
 	width: 90vw;
-	margin: 148px 0 0 35px;
-	height: 300px;
-	width: 677px;
+	margin: 78px 0 0 5px;
+	height: 100px;
+	width: 264px;
 	position: absolute;
 	color: white;
 }
 
 .logo-top {
-	height: 300px;
+	height: 120px;
 	width: 138px;
 	clip-path: polygon(2% 0%, 98% 0%, 73% 94%, 26% 94%);
 }
@@ -68,7 +70,7 @@
 .logo-bottom {
 	height: 104px;
 	width: 245px;
-	clip-path: circle(44.4% at 50% 50%);
+	clip-path: circle(22.4% at 50% 50%);
 }
 
 #logo-first-bottom,
@@ -106,28 +108,28 @@
 }
 
 #logo-second-top {
-	margin-top: 50px;
-	height: 244px;
+	margin-top: 20px;
+	height: 100px;
 }
 
 #logo-third-top {
-	margin-top: 89px;
-	height: 200px;
+	margin-top: 36px;
+	height: 84px;
 }
 
 #logo-forth-top {
-	margin-top: 126px;
-	height: 161px;
+	margin-top: 52px;
+	height: 68px;
 }
 
 #logo-fifth-top {
-	margin-top: 155px;
-	height: 130px;
+	margin-top: 65px;
+	height: 55px;
 }
 
 #logo-sixth-top {
-	margin-top: 176px;
-	height: 107px;
+	margin-top: 75px;
+	height: 45px;
 }
 
 span {
