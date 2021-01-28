@@ -96,14 +96,8 @@ header,
 		max-width: 1008px;
 	}
 
-	.header,
-	.name {
-		/* font-size: 18px; */
-	}
-
 	.category,
-	.branding,
-	.disclosure {
+	.branding {
 		font-size: 14px;
 	}
 }
@@ -129,18 +123,16 @@ header,
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 374px) and (-webkit-min-device-pixel-ratio: 2) {
-	#container,
+	#container {
+		width: 329px;
+	}
+
 	#grid-container {
-		max-width: 339px;
+		width: 308px;
 	}
 
 	.tile-container,
-	.images,
-	#header-container {
+	.images {
 		max-width: 260px;
-	}
-
-	#header-container {
-		margin: 0 auto;
 	}
 }

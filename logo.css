@@ -1,0 +1,176 @@
+#logo-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 339px;
+}
+
+#logo-top-container {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	margin-top: 25px;
+	height: 90px;
+	width: 339px;
+	z-index: 1;
+}
+
+#logo-bottom-container {
+	display: flex;
+	flex-direction: row;
+	height: 104px;
+	width: 307px;
+}
+
+.rotate {
+	display: flex;
+	flex-direction: row;
+	font-family: "Bitter", serif;
+	font-size: 12px;
+	transform: rotate(-90deg);
+	z-index: 3;
+	height: 25px;
+	width: 20px;
+}
+
+#text-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100px;
+	width: 90vw;
+	margin: 78px 0 0 5px;
+	height: 100px;
+	width: 264px;
+	position: absolute;
+	color: white;
+}
+
+.logo-top {
+	height: 120px;
+	width: 138px;
+	clip-path: polygon(2% 0%, 98% 0%, 73% 94%, 26% 94%);
+}
+
+.logo-bottom {
+	height: 104px;
+	width: 245px;
+	clip-path: circle(22.4% at 50% 50%);
+}
+
+.logo-first-set {
+	background-color: rgb(59, 99, 65);
+}
+
+.logo-second-set {
+	background-color: rgb(155, 194, 93);
+}
+
+.logo-third-set {
+	background-color: rgb(233, 185, 89);
+}
+
+.logo-forth-set {
+	background-color: rgb(206, 112, 78);
+}
+
+.logo-fifth-set {
+	background-color: rgb(94, 164, 217);
+}
+
+.logo-sixth-set {
+	background-color: rgb(128, 66, 130);
+}
+
+#logo-seventh-bottom {
+	background-color: rgb(194, 60, 128);
+}
+
+#logo-second-top {
+	margin-top: 20px;
+	height: 100px;
+}
+
+#logo-third-top {
+	margin-top: 36px;
+	height: 84px;
+}
+
+#logo-forth-top {
+	margin-top: 52px;
+	height: 68px;
+}
+
+#logo-fifth-top {
+	margin-top: 65px;
+	height: 55px;
+}
+
+#logo-sixth-top {
+	margin-top: 75px;
+	height: 45px;
+}
+
+@media only screen and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+	.logo-bottom {
+		clip-path: circle(30.4% at 50% 50%);
+	}
+
+	#logo-container {
+		width: 700px;
+	}
+
+	#logo-bottom-container {
+		width: 600px;
+	}
+
+	#logo-top-container {
+		width: 620px;
+		height: 162px;
+	}
+
+	.rotate {
+		font-size: 19px;
+		height: 100px;
+		width: 100px;
+	}
+
+	#text-container {
+		height: 100px;
+		width: 90vw;
+		margin: 50px 0 0 36px;
+		height: 328px;
+		width: 519px;
+	}
+
+	.logo-top {
+		height: 180px;
+		width: 138px;
+		clip-path: polygon(2% 0%, 98% 0%, 73% 94%, 26% 94%);
+	}
+
+	#logo-second-top {
+		margin-top: 17px;
+		height: 165px;
+	}
+
+	#logo-third-top {
+		margin-top: 32px;
+		height: 145px;
+	}
+
+	#logo-forth-top {
+		margin-top: 54px;
+		height: 122px;
+	}
+
+	#logo-fifth-top {
+		margin-top: 76px;
+		height: 100px;
+	}
+
+	#logo-sixth-top {
+		margin-top: 88px;
+		height: 87px;
+	}
+}
