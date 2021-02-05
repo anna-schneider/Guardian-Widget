@@ -19,7 +19,7 @@
           <a href="${tile.webUrl}"> <img src="${tile.fields.thumbnail}"class="images"></a>
           <a href="${tile.webUrl}" class="name">${tile.webTitle}</a>
           <div class="branding-container">
-          <p class="category">${category}</p>
+          <p class="category">${tile.sectionName}</p>
           <a href="${tile.url}" class="branding">${tile.pillarName}</a>
           </div>
           </div>
